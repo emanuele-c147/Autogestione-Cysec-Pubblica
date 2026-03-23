@@ -178,12 +178,6 @@ La sicurezza informatica è un compromesso continuo tra comodità e protezione. 
 - Pensare sempre: "Cosa succederebbe se questo dispositivo/account venisse compromesso?"
 - La cybersecurity riguarda **tutti**, non solo esperti IT
 
-**Risorse utili:**
-- [Have I Been Pwned](https://haveibeenpwned.com/)
-- [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework)
-- Corsi gratuiti: Cybrary, TryHackMe, HackTheBox
-- Stay updated: blog di sicurezza, CVE databases
-
 **Fonti ufficali dei tool:**
 **SI ALLEGANO SOLO A SCOPO DI PRESERVARE I DIRITTI D'AUTORE, NON DEVONO ESSERE IN ALCUN CASO IN AMBIENTI NON CONTROLLATI E SENZA L'AUTORIZZAZIONE DEI PROPRIETARI DEL DISPOSITIVO ATTACCATO**
 - [Wireshark](https://www.wireshark.org/)
