@@ -185,5 +185,3 @@ La sicurezza informatica è un compromesso continuo tra comodità e protezione. 
 - [Ngrok](https://ngrok.com/)
 - [John the Ripper](https://github.com/openwall/john)
 - [Rockyou.txt](https://weakpass.com/wordlists/rockyou.txt)
-
-**Domande?**
