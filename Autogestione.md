@@ -178,8 +178,8 @@ La sicurezza informatica è un compromesso continuo tra comodità e protezione. 
 - Pensare sempre: "Cosa succederebbe se questo dispositivo/account venisse compromesso?"
 - La cybersecurity riguarda **tutti**, non solo esperti IT
 
-**Fonti ufficali dei tool:**
-**SI ALLEGANO SOLO A SCOPO DI PRESERVARE I DIRITTI D'AUTORE, NON DEVONO ESSERE IN ALCUN CASO IN AMBIENTI NON CONTROLLATI E SENZA L'AUTORIZZAZIONE DEI PROPRIETARI DEL DISPOSITIVO ATTACCATO**
+**Fonti ufficali dei tool:**  
+**SI ALLEGANO SOLO A SCOPO DI PRESERVARE I DIRITTI D'AUTORE, NON DEVONO ESSERE IN ALCUN CASO UTILIZZATI SE NON IN AMBIENTI CONTROLLATI E CON L'ESPLICITA AUTORIZZAZIONE DEI PROPRIETARI DEL DISPOSITIVO ATTACCATO**
 - [Wireshark](https://www.wireshark.org/)
 - [Zphisher](https://github.com/htr-tech/zphisher)
 - [Ngrok](https://ngrok.com/)
