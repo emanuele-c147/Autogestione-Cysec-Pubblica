@@ -1,5 +1,5 @@
 # Autogestione
-Scrittura del file a cura di:  
+A cura di:  
 Emanuele Canazza 
 
 **Attività:** A meno di variazioni per impossibilità a preparare o utilizzare gli strumenti e i laboratori, l'ordine di esposizione sarà:
