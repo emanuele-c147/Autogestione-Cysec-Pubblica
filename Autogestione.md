@@ -7,11 +7,9 @@ Emanuele Canazza
 0. Presentazioni, setup, saluti fnali (10 minuti)
 1. [Phishing (10 minuti)](#phishing)
 2. [Passwords e Craks (10 minuti)](#passwords-e-craks)
-3. [Cattura di pacchetti con connessioni pubbliche (10 minuti)](#cattura-di-pacchetti-con-connessioni-pubbliche)
-4. [Buone pratiche (5 - 10 min)](#buone-pratiche)
 5. [PC pubblici e Keyloggers (10 minuti)](#pc-pubblici-e-keyloggers)
-6. [Rubber ducky (5 minuti)](#rubber-ducky)
 7. [Trojan e Ransomware (5 minuti)](#trojan-e-ransomware)
+4. [Buone pratiche (5 - 10 min)](#buone-pratiche)
 8. [Conclusioni](#conclusioni)
 
 
@@ -23,7 +21,6 @@ Emanuele Canazza
 
 **Ampliamenti:**
 - Worm ILOVEYOU (2000) - uno dei virus più devastanti della storia
-- Altri casi famosi di attacchi di ingegneria sociale
 - Caratteri simili (es. cirillico o paypal→paypaI/paypa1) con esempi visivi
 - Statistiche: oltre il 90% degli attacchi informatici inizia con il phishing
 - Spear phishing: attacchi mirati verso specifiche persone/organizzazioni
@@ -48,7 +45,6 @@ Emanuele Canazza
 - Il leak del 2009 di RockYou (32 milioni di password in chiaro)
 - [Have I Been Pwned](https://haveibeenpwned.com/) - verifica se le tue credenziali sono state compromesse
 - Tempo di cracking: password di 8 caratteri solo minuscole = secondi, con maiuscole/numeri/simboli = anni
-- Rainbow tables e hash collision
 - Attacchi dictionary vs brute force
 
 **Tecniche di contrasto:**
@@ -58,28 +54,6 @@ Emanuele Canazza
 - Attivare l'**autenticazione a due fattori (2FA)** ovunque possibile
 - Cambiare periodicamente password critiche (email principale, banking)
 - Evitare informazioni personali prevedibili (date di nascita, nomi di animali)
-
-
-## Cattura di pacchetti con connessioni pubbliche
-
-**Strumenti:** [Wireshark](https://www.wireshark.org/), form e backend su localhost o vulnerable docker
-
-**Scopo:** Dimostrare come le reti pubbliche rendano vulnerabili ed esposti i nostri dati
-
-**Ampliamenti:**
-- **Man-in-the-Middle (MitM) attacks**: intercettazione e modifica del traffico in tempo reale
-- Differenza HTTP vs HTTPS (crittografia end-to-end)
-- Sniffing di password in chiaro su reti WiFi pubbliche
-- ARP spoofing e DNS poisoning
-- Assicurarsi di usare siti che si preoccupino della nostra sicurezza (es. uso di POST invece di GET, HTTPS)
-
-**Tecniche di contrasto:**
-- **Non connettersi a reti WiFi sconosciute**, nemmeno se hanno nomi che sembrano affidabili
-- Esempio: router con SSID "Paleocapa WiFi" posizionato fuori scuola per intercettare dati di studenti
-- Usare una **VPN** quando ci si connette a reti pubbliche
-- Verificare sempre che il sito usi HTTPS (lucchetto nella barra indirizzi)
-- Disabilitare la connessione automatica a reti WiFi
-- Preferire hotspot personale (smartphone) quando possibile
 
 
 ## PC pubblici e Keyloggers
@@ -117,27 +91,6 @@ Emanuele Canazza
 - **Controllo permessi app**: verificare cosa chiedono le applicazioni installate
 - **Email aziendale/scolastica**: usarla solo per scopi legittimi, evitare iscrizioni a servizi esterni
 - **Social engineering awareness**: diffidare di chiamate/email che richiedono azioni urgenti
-
-
-## Rubber ducky
-**Strumenti:** Immagini e screenshots, eventuale demo device
-
-**Scopo:** Dimostrare come oggetti apparentemente innocui possano essere strumenti per attività malevole
-
-**Ampliamenti:**
-- USB Rubber Ducky: si presenta come tastiera USB, esegue script in millisecondi
-- **Stuxnet e l'Iran**: il worm che ha sabotato centrifughe nucleari iraniane (2010), diffuso via USB
-- Altri attacchi: BadUSB, O.MG Cable (cavo USB malevolo indistinguibile dall'originale)
-- Possibili payload: installazione backdoor, furto dati, ransomware deployment
-- Social engineering: USB "persi" in parcheggi aziendali con etichette tipo "Stipendi 2024"
-
-**Tecniche di contrasto:**
-- **Mai collegare hardware sconosciuto** ai propri dispositivi
-- Meglio lasciare per terra una chiavetta da 10 euro che subire le conseguenze di un attacco
-- Disabilitare AutoRun/AutoPlay nel sistema operativo
-- Usare "USB data blocker" per caricare dispositivi in luoghi pubblici
-- Educare dipendenti/studenti sui rischi (spesso l'anello debole è l'utente)
-- Policy aziendali: vietare uso di USB personali su PC aziendali
 
 
 ## Trojan e Ransomware
