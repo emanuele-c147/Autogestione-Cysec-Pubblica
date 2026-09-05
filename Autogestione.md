@@ -4,9 +4,9 @@ Emanuele Canazza
 
 **Attività:** A meno di variazioni per impossibilità a preparare o utilizzare gli strumenti e i laboratori, l'ordine di esposizione sarà:
 
-0. Presentazioni, setup, saluti fnali (10 minuti)
+0. Presentazioni, setup, saluti finali (10 minuti)
 1. [Phishing (10 minuti)](#phishing)
-2. [Passwords e Cracks (10 minuti)](#passwords-e-craks)
+2. [Passwords e Cracks (10 minuti)](#passwords-e-cracks)
 3. [PC pubblici e Keyloggers (10 minuti)](#pc-pubblici-e-keyloggers)
 4. [Trojan e Ransomware (5 minuti)](#trojan-e-ransomware)
 5. [Buone pratiche (5 - 10 min)](#buone-pratiche)
