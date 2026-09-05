@@ -6,11 +6,11 @@ Emanuele Canazza
 
 0. Presentazioni, setup, saluti fnali (10 minuti)
 1. [Phishing (10 minuti)](#phishing)
-2. [Passwords e Craks (10 minuti)](#passwords-e-craks)
-5. [PC pubblici e Keyloggers (10 minuti)](#pc-pubblici-e-keyloggers)
-7. [Trojan e Ransomware (5 minuti)](#trojan-e-ransomware)
-4. [Buone pratiche (5 - 10 min)](#buone-pratiche)
-8. [Conclusioni](#conclusioni)
+2. [Passwords e Cracks (10 minuti)](#passwords-e-craks)
+3. [PC pubblici e Keyloggers (10 minuti)](#pc-pubblici-e-keyloggers)
+4. [Trojan e Ransomware (5 minuti)](#trojan-e-ransomware)
+5. [Buone pratiche (5 - 10 min)](#buone-pratiche)
+6. [Conclusioni](#conclusioni)
 
 
 ## Phishing
@@ -35,7 +35,7 @@ Emanuele Canazza
 - Diffidare di urgenze artificiali ("il tuo account sarà chiuso tra 24 ore!")
 
 
-## Passwords e Craks
+## Passwords e Cracks
 
 **Strumenti:** [JtR](https://github.com/openwall/john) (John the Ripper), [rockyou.txt](https://weakpass.com/wordlists/rockyou.txt)
 
@@ -78,21 +78,6 @@ Emanuele Canazza
 - Controllare sempre il task manager per processi sospetti (se hai privilegi)
 
 
-## Buone pratiche
-
-**Regole generali di sicurezza:**
-- **Bloccare sempre il PC** quando ci si allontana (Win+L su Windows, Ctrl+Alt+L su Linux)
-- **Logout sempre** dagli account, soprattutto su PC condivisi
-- Se ci si dimentica: disconnessione remota disponibile su Google, Facebook, etc.
-- **Aggiornamenti regolari**: sistema operativo e software (molte vulnerabilità vengono patchate)
-- **Antivirus/antimalware** aggiornato e attivo
-- **Backup regolari** dei dati importanti (regola 3-2-1: 3 copie, 2 supporti diversi, 1 offsite)
-- **Minimizzare i privilegi**: non usare account amministratore per attività quotidiane
-- **Controllo permessi app**: verificare cosa chiedono le applicazioni installate
-- **Email aziendale/scolastica**: usarla solo per scopi legittimi, evitare iscrizioni a servizi esterni
-- **Social engineering awareness**: diffidare di chiamate/email che richiedono azioni urgenti
-
-
 ## Trojan e Ransomware
 
 **Strumenti:** Immagini, screenshots, VM e esecuzione
@@ -116,6 +101,21 @@ Emanuele Canazza
 - Verificare hash/firma digitale per software critico
 - Principle of least privilege: limitare permessi amministratore
 - **Network segmentation**: separare sistemi critici dalla rete principale
+
+
+## Buone pratiche
+
+**Regole generali di sicurezza:**
+- **Bloccare sempre il PC** quando ci si allontana (Win+L su Windows, Ctrl+Alt+L su Linux)
+- **Logout sempre** dagli account, soprattutto su PC condivisi
+- Se ci si dimentica: disconnessione remota disponibile su Google, Facebook, etc.
+- **Aggiornamenti regolari**: sistema operativo e software (molte vulnerabilità vengono patchate)
+- **Antivirus/antimalware** aggiornato e attivo
+- **Backup regolari** dei dati importanti (regola 3-2-1: 3 copie, 2 supporti diversi, 1 offsite)
+- **Minimizzare i privilegi**: non usare account amministratore per attività quotidiane
+- **Controllo permessi app**: verificare cosa chiedono le applicazioni installate
+- **Email aziendale/scolastica**: usarla solo per scopi legittimi, evitare iscrizioni a servizi esterni
+- **Social engineering awareness**: diffidare di chiamate/email che richiedono azioni urgenti
 
 
 ## Conclusioni
